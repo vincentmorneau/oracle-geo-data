@@ -8,7 +8,7 @@ Note: It can take a few minutes to install *(95 seconds on my environment)*.
 
 ## Table `countries` (246 records)
 Column Name | Data Type | Nullable | Default
--- | -- | -- | --
+--- | --- | --- | ---
 country_id | number | No |
 code | varchar2(3 byte) | No |
 name | varchar2(150 byte) | No |
@@ -16,14 +16,14 @@ phone_code | number | No |
 
 ## Table `states` (4,120 records)
 Column Name | Data Type | Nullable | Default
--- | -- | -- | --
+--- | --- | --- | ---
 state_id | number | No |
 name | varchar2(50 byte) | No |
 country_id | number | No | 1
 
 ## Table `cities` (48,312 records)
 Column Name | Data Type | Nullable | Default
--- | -- | -- | --
+--- | --- | --- | ---
 city_id | number | No |
 name | varchar2(50 byte) | No |
 state_id | number | No |
