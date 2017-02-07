@@ -17,3 +17,5 @@ prompt CITIES COMPLETED
 prompt *********************************
 
 commit;
+
+set termout on;

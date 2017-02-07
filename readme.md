@@ -31,5 +31,5 @@ state_id | number | No |
 ## Changelog
 [See changelog.](changelog.md)
 
-## Adapted from
+## Adapted for Oracle from
 https://github.com/hiiamrohit/Countries-States-Cities-database
