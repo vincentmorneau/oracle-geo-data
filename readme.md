@@ -1,5 +1,5 @@
 # Oracle Countries States Cities
-Just three tables containing the world's **246 countries**, **4,120 states** and **48,312 cities** in an Oracle-ready script.
+Just three tables containing the world's **246 countries**, **4,120 states** and **48,314 cities** in an Oracle-ready script.
 
 ## Install
 - Execute `install.sql` in your parsing schema.
@@ -21,7 +21,7 @@ state_id | number | No |
 name | varchar2(50 byte) | No |
 country_id | number | No | 1
 
-## Table `cities` (48,312 records)
+## Table `cities` (48,314 records)
 Column Name | Data Type | Nullable | Default
 --- | --- | --- | ---
 city_id | number | No |
