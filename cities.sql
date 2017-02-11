@@ -22282,7 +22282,7 @@ insert into cities (city_id, name, state_id) values (22265, 'D''alpago', 1813);
 insert into cities (city_id, name, state_id) values (22266, 'Longarone', 1813);
 insert into cities (city_id, name, state_id) values (22267, 'Pedavena', 1813);
 insert into cities (city_id, name, state_id) values (22268, 'San Bartolomeo', 1814);
-insert into cities (city_id, name, state_id) values (22269, '', 1815);
+insert into cities (city_id, name, state_id) values (22269, '-', 1815);
 insert into cities (city_id, name, state_id) values (22270, 'Bagnatica', 1815);
 insert into cities (city_id, name, state_id) values (22271, 'Bergamo', 1815);
 insert into cities (city_id, name, state_id) values (22272, 'Bolgare', 1815);
@@ -22601,7 +22601,6 @@ insert into cities (city_id, name, state_id) values (22584, 'Miglianico', 1826);
 insert into cities (city_id, name, state_id) values (22585, 'Montazzoli', 1826);
 insert into cities (city_id, name, state_id) values (22586, 'Montebello sul Sangro', 1826);
 insert into cities (city_id, name, state_id) values (22587, 'Monteferrante', 1826);
-
 insert into cities (city_id, name, state_id) values (22588, 'Montelapiano', 1826);
 insert into cities (city_id, name, state_id) values (22589, 'Montenerodomo', 1826);
 insert into cities (city_id, name, state_id) values (22590, 'Monteodorisio', 1826);
