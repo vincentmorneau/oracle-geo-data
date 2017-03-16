@@ -39,5 +39,8 @@ Special thanks to http://www.geonames.org/
 ## Changelog
 [See changelog.](changelog.md)
 
+## Sponsors
+Thanks to [Insum Solutions](http://insum.ca/) for sponsoring this project.
+
 ## License
 MIT © [Vincent Morneau](http://vmorneau.me)
