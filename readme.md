@@ -1,35 +1,41 @@
-# Oracle Countries States Cities
-Just three tables containing the world's **246 countries**, **4,120 states** and **48,312 cities** in an Oracle-ready script.
+# Oracle Geo Data
+Four tables containing the world's **7 continents**, **252 countries**, **3,916 administrative divisions** and **22,598 cities** in a sql script for Oracle.
 
-## Install
-- Execute `install.sql` in your parsing schema.
+*Note: An administrative division can be a state, region, province, territory, etc.*
 
-Note: It can take a few minutes to install *(95 seconds on my environment)*.
+## Install - Standard (easiest)
+Execute `compiled/install.sql`.
 
-## Table `countries` (246 records)
-Column Name | Data Type | Nullable | Default
---- | --- | --- | ---
-country_id | number | No |
-code | varchar2(3 byte) | No |
-name | varchar2(150 byte) | No |
-phone_code | number | No |
+*Note: Our testing environment takes 135 seconds to complete.*
 
-## Table `states` (4,120 records)
-Column Name | Data Type | Nullable | Default
---- | --- | --- | ---
-state_id | number | No |
-name | varchar2(50 byte) | No |
-country_id | number | No | 1
+#### Uninstall
+Execute `compiled/uninstall.sql`.
 
-## Table `cities` (48,312 records)
-Column Name | Data Type | Nullable | Default
---- | --- | --- | ---
-city_id | number | No |
-name | varchar2(50 byte) | No |
-state_id | number | No |
+## Install - from Source
+*Use this method if you wish to understand how to the tables are populated from http://www.geonames.org/.*
+
+Execute `source/install.sql`.
+
+*Note: Our testing environment takes 120 seconds to complete.*
+
+#### Uninstall
+Execute `source/uninstall.sql`.
+
+## Update
+*Use this if you were using a previous build of Oracle Geo Data and only wish to update your data.*
+
+Execute `source/update.sql`.
+
+*Note: Our testing environment takes 115 seconds to complete.*
+
+## Table Definitions
+[See documentation.](docs/tables.md)
+
+## Source Data
+Special thanks to http://www.geonames.org/
 
 ## Changelog
 [See changelog.](changelog.md)
 
-## Adapted for Oracle from
-https://github.com/hiiamrohit/Countries-States-Cities-database
+## License
+MIT © [Vincent Morneau](http://vmorneau.me)
